@@ -1,13 +1,14 @@
 import React from 'react'
-import "./about.css"
+import "./contact.css"
 import Navbar from '../../component/navbar/navbar'
 
-function about() {
+
+function contact() {
   return (
     <div>
-       <Navbar/>
+      <Navbar/>
     </div>
   )
 }
 
-export default about
+export default contact

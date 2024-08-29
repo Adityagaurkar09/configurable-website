@@ -1,5 +1,6 @@
 import React from 'react'
 import "./home.css"
+import Navbar from '../../component/navbar/navbar'
 
 import FoodCard from '../../component/foodcard/Foodcard'
 import {PRODUCTS,MAIN_TITLE,THEME} from './../../config/data'
@@ -9,6 +10,7 @@ import {PRODUCTS,MAIN_TITLE,THEME} from './../../config/data'
 function home() {
   return (
     <div>
+      <Navbar/>
         <h1 className='main-title' style={{color:THEME.highlight , margin:0}}>
           {MAIN_TITLE}</h1>
 <div className='dairy-container'>
